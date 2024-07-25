@@ -18,7 +18,6 @@ def process_request():
     else:
         print("Черга порожня")
 
-
 generate_thread = threading.Thread(target=generate_request)
 generate_thread.start()
 process_request()
